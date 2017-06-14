@@ -55,3 +55,6 @@ output: html_document
 
 # Pedra da Boca
 ![Mapa de Sitios Possíveis](/sitios12.png)
+
+# Fazenda UFPB/Cariri
+![Mapa de Sitios Possíveis](/sitios13.png)
