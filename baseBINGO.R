@@ -64,11 +64,11 @@ mapa <- mapaPB +
   geom_path(data = linha9, aes(x = lon, y = lat, group = 1), color = "firebrick", size = 1, linetype = "longdash")+
   geom_path(data = linha10, aes(x = lon, y = lat, group = 1), color = "firebrick", size = 1, linetype = "longdash")+
     geom_point(aes(x = lon, y = lat), 
-             color = "blue", shape = 18, size = 4, data = AEREOS, na.rm = TRUE) +
+             color = "blue", shape = 18, size = 2, data = AEREOS, na.rm = TRUE) +
   geom_point(aes(x = lon, y = lat), 
-             color = "orchid", shape = 13, size = 4, data = sites, na.rm = TRUE) +
+             color = "orchid", shape = 13, size = 2, data = sites, na.rm = TRUE) +
   geom_point(aes(x = Longitude, y = Latitude), 
-             color = "khaki1", shape = 3, size = 2, data = ERBs, na.rm = TRUE)  
+             color = "khaki1", shape = 3, size = 1, data = ERBs, na.rm = TRUE)  
   
 mapa
 
@@ -304,3 +304,23 @@ png(filename="sitios11.png",
 mapa11
 dev.off()
 #--------------------------------------------------------------------
+#--------------------------------------------------------------------
+#ZOOM sitio12
+sitio12           <- get_map(location = c(lon = sites$lon[[12]], lat = sites$lat[[12]] ), zoom = 11, language = 'pt-BR', maptype = 'hybrid')
+mapa12            <- ggmap(sitio12, extend = "normal", size = c(5400,5400))
+
+
+mapa12 <- mapa12 +
+  geom_point(aes(x = lon, y = lat), 
+             color = "blue", shape = 13, size = 4, data = sites, na.rm = TRUE) +
+  geom_point(aes(x = Longitude, y = Latitude), 
+             color = "firebrick1", shape = 3, size = 2, data = ERBs, na.rm = TRUE)  
+
+mapa12
+png(filename="sitios12.png",
+    units = "in",
+    width = 5,
+    height = 4,
+    res = 300)
+mapa12
+dev.off()

@@ -52,3 +52,6 @@ output: html_document
 
 # Açude de Nova Olinda
 ![Mapa de Sitios Possíveis](/sitios11.png)
+
+# Pedra da Boca
+![Mapa de Sitios Possíveis](/sitios12.png)
