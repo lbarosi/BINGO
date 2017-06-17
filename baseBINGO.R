@@ -84,7 +84,7 @@ dev.off()
 
 mapaSitios    <- function(sitio, Zoom) {
   
-  titulo    <- sites$NOME[[1]]
+  titulo    <- sites$NOME[[sitio]]
   file      <- paste("./Imagens/sitio-",sitio,"-zoom-",Zoom,".png", sep = "")
   lugar     <- c(lon = sites$lon[[sitio]], lat = sites$lat[[sitio]] )
   mapa      <- get_map(location = lugar, zoom = Zoom, language = 'pt-BR', maptype = 'hybrid') %>%
