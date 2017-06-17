@@ -84,11 +84,19 @@ dev.off()
 
 mapaSitios    <- function(sitio, Zoom) {
   
+  titulo    <- sites$NOME[[1]]
   file      <- paste("./Imagens/sitio-",sitio,"-zoom-",Zoom,".png", sep = "")
   lugar     <- c(lon = sites$lon[[sitio]], lat = sites$lat[[sitio]] )
   mapa      <- get_map(location = lugar, zoom = Zoom, language = 'pt-BR', maptype = 'hybrid') %>%
     ggmap(., extend = "normal", size = c(5400,5400))
 
+  mapa <- mapa + 
+    geom_point(aes(x = lon, y = lat), 
+               color = "orchid", shape = 13, size = 2, data = sites, na.rm = TRUE) +
+    geom_point(aes(x = Longitude, y = Latitude), 
+               color = "khaki1", shape = 3, size = 1, data = ERBs, na.rm = TRUE)  +
+    ggtitle(titulo)
+  
   png(filename=file,
       units = "in",
       width = 5,
