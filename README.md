@@ -5,56 +5,38 @@ date: "14 de junho de 2017"
 output: html_document
 ---
 
-![Mapa de Sitios Possíveis](/sitios.png)
-
-# Mina Escola - Santa Luzia
-
-![Mapa de Sitios Possíveis](/sitios1.png)
-
-# CFP - Cajazeiras
-
-![Mapa de Sitios Possíveis](/sitios2.png)
-
-# Engenheiro Avidos - Cajazeiras
-
-![Mapa de Sitios Possíveis](/sitios3.png)
-
-# Pai Mateus - Boa Vista
-
-![Mapa de Sitios Possíveis](/sitios4.png)
-
-# CDSA - Sumé
-
-![Mapa de Sitios Possíveis](/sitios5.png)
-
-# Estação de Bombeamento - Aparecida
-
-![Mapa de Sitios Possíveis](/sitios6.png)
-
-# IF Princesa Isabel
+![Mapa de Sitios Possíveis](./Imagenssitios.png)
 
 
-![Mapa de Sitios Possíveis](/sitios7.png)
+# Zoom = 11
 
-# APA da Onça 
+![Mapa de Sitios Possíveis](./Imagens/sitio-1-zoom-11.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-2-zoom-11.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-3-zoom-11.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-4-zoom-11.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-5-zoom-11.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-6-zoom-11.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-7-zoom-11.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-8-zoom-11.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-9-zoom-11.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-10-zoom-11.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-11-zoom-11.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-12-zoom-11.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-13-zoom-11.png)
 
+# Zoom = 18
 
-![Mapa de Sitios Possíveis](/sitios8.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-1-zoom-18.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-2-zoom-18.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-3-zoom-18.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-4-zoom-18.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-5-zoom-18.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-6-zoom-18.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-7-zoom-18.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-8-zoom-18.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-9-zoom-18.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-10-zoom-18.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-11-zoom-18.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-12-zoom-18.png)
+![Mapa de Sitios Possíveis](./Imagens/sitio-13-zoom-18.png)
 
-# Fazenda ALmas
-
-
-![Mapa de Sitios Possíveis](/sitios9.png)
-
-# Açude Badu
-
-![Mapa de Sitios Possíveis](/sitios10.png)
-
-# Açude de Nova Olinda
-![Mapa de Sitios Possíveis](/sitios11.png)
-
-# Pedra da Boca
-![Mapa de Sitios Possíveis](/sitios12.png)
-
-# Fazenda UFPB/Cariri
-![Mapa de Sitios Possíveis](/sitios13.png)
