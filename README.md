@@ -5,7 +5,7 @@ date: "14 de junho de 2017"
 output: html_document
 ---
 
-![Mapa de Sitios Possíveis](./Imagenssitios.png)
+![Mapa de Sitios Possíveis](./Imagens/sitios.png)
 
 
 # Zoom = 11
