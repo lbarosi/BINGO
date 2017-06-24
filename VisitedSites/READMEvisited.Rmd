@@ -1,0 +1,55 @@
+---
+title: "BINGO Visited sites on tour 20 - 24 Jun/2017"
+author: "Luciano Barosi"
+date: "24 de junho de 2017"
+output: html_document
+---
+
+# Overview
+
+We visited and measured 6 sites in total, all of them in west of Paraiba State, Alto Sertão. The maps below indicate
+
+1. Sites Visited in blue dots
+2. Circles are 10km diameter, centered in visited sites.
+3. Red dots indicated ERBs as informed by ANATEL, acording to Jun 2016.
+4. Pink dots are standard points for aeronavigation.
+5. Yellow dashed lines indicate fligths in the region as reported by Departamento de Controle do Espaço Aéreo (Instituto de Cartografia Aeronáutica) - 13/Oct/2016
+6. Maps are retrieved from OpenStreetMap
+
+# Panorama View
+```{r, echo=FALSE, results='hide'}
+source("./BINGOvisited.R")
+```
+
+
+```{r, echo=FALSE}
+map
+```
+
+# Detailed View of Sites
+
+(Hover the mouse on the area to know the name of the site)
+
+```{r, echo=FALSE}
+m1
+```
+
+```{r, echo=FALSE}
+m2
+```
+
+```{r, echo=FALSE}
+m3
+```
+
+```{r, echo=FALSE}
+m4
+```
+
+```{r, echo=FALSE}
+m5
+```
+
+```{r, echo=FALSE}
+m6
+```
