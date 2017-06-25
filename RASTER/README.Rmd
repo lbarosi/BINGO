@@ -1,0 +1,36 @@
+---
+title: "BINGO Sites - Topografia"
+author: "Luciano Barosi"
+output: html_document
+---
+
+# Topography Data
+
+We considerar the following set of data:
+
+1. Orange Visited Sites in first tour 20 - 24/Jun - Paraíba
+2. Red dots indicated ERBs as informed by ANATEL, acording to Jun 2016.
+3. Redish lines indicate fligths in the region as reported by Departamento de Controle do Espaço Aéreo (Instituto de Cartografia Aeronáutica) - 13/Oct/2016
+4. Geographical data from https://www.cnpm.embrapa.br/projetos/relevobr/download/pb/pb.htm (Endeavour SRTM - 2000)
+5. City shapes from Ministério do Meio Ambiente
+
+# Paraiba Overview
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+source("./raster.R")
+```
+
+```{r, echo=FALSE, results='hold', fig.height=9}
+panorama
+```
+
+# Zooming Sites (1 (nautic) mile radius)
+
+```{r, echo=FALSE, results='hold'}
+sitiosZoom(1,0.1)
+sitiosZoom(2,0.1)
+sitiosZoom(3,0.1)
+sitiosZoom(4,0.1)
+sitiosZoom(5,0.1)
+sitiosZoom(6,0.1)
+```
