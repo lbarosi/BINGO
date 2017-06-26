@@ -24,13 +24,28 @@ source("./raster.R")
 panorama
 ```
 
-# Zooming Sites (1 (nautic) mile radius)
+# Zooming Sites (11km diameter)
+
+(points 7 - 19 are prospective sites)
 
 ```{r, echo=FALSE, results='hold'}
-sitiosZoom(1,0.1)
-sitiosZoom(2,0.1)
-sitiosZoom(3,0.1)
-sitiosZoom(4,0.1)
-sitiosZoom(5,0.1)
-sitiosZoom(6,0.1)
+sitiosZoom(1,0.05,25)
+sitiosZoom(2,0.05,25)
+sitiosZoom(3,0.05,25)
+sitiosZoom(4,0.05,25)
+sitiosZoom(5,0.05,25)
+sitiosZoom(6,0.05,25)
+sitiosZoom(7,0.05,25)
+sitiosZoom(8,0.05,25)
+sitiosZoom(9,0.05,25)
+sitiosZoom(10,0.05,25)
+sitiosZoom(11,0.05,25)
+sitiosZoom(12,0.05,25)
+sitiosZoom(13,0.05,25)
+sitiosZoom(14,0.05,25)
+sitiosZoom(15,0.05,25)
+sitiosZoom(16,0.05,25)
+sitiosZoom(17,0.05,25)
+sitiosZoom(18,0.05,25)
+sitiosZoom(19,0.05,25)
 ```

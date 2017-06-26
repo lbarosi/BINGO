@@ -15,7 +15,7 @@ library(magrittr)
 #AEREOS H3 e V3 aisweb 2016
 AEREOS            <- read_excel("../VisitedSites/AEREOvisited.xlsx")
 #Sitios de Interesse Selecionados
-sites             <- read_excel("../VisitedSites/sitesvisited.xlsx")
+sites             <- read_excel("./sitesvisited.xlsx")
 nomes             <- sites$NOME
 coordinates(sites) <- c("lon","lat")
 #Linhas Aereas H3 e V3-------------------------------------------------------------
@@ -67,7 +67,7 @@ panorama <- ParaibaMap + layer(sp.points(ERBs, col = "red", pch="+", cex=1)) +
 #-------------
 #zooming
 
-sitiosZoom <- function(s, z){
+sitiosZoom <- function(s, z, h){
   
   sitio <- as.data.frame(sites@coords)
   passo <- z
@@ -80,10 +80,14 @@ sitiosZoom <- function(s, z){
     
   mapa <- crop(Paraiba, extent(Xlim[[1]],Xlim[[2]], Ylim[[1]], Ylim[[2]]))
   
-  zmin <- (minValue(Paraiba) %/% 10) * 10
-  zmax <- (maxValue(Paraiba) %/% 10) * 10
+  # Gaussian filter
+  #gf <- focalWeight(mapa, 2, "Gauss")
+  #mapa <- focal(mapa, w=gf)
   
-  my.at <- seq(zmin, zmax, 25)
+  zmin <- (minValue(mapa) %/% 100) * 100
+  zmax <- (maxValue(mapa) %/% 100) * 100
+  
+  my.at <- seq(zmin, zmax, h)
   
   zoomMap<- levelplot(Paraiba, 
                         layers = 1, 
@@ -110,6 +114,6 @@ sitiosZoom <- function(s, z){
   }
 
 
-
+#---------------------
 
 
