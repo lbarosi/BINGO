@@ -130,10 +130,10 @@ sitiosZoom <- function(s, z, h){
 
 map <- leaflet() %>% addTiles() %>% 
   setView(lng = -38.2, lat = -7, zoom = 10) %>%
-  addCircles(lng = sites$lon, lat = sites$lat, radius = 5000, label = sites$NOME) %>%
+  addCircles(lng = sites$lon, lat = sites$lat, radius = 5000, label = sites$NOME, fillOpacity = 0.1) %>%
   addCircles(lng = sites$lon, lat = sites$lat, radius = 10, label = sites$NOME) %>%
   addCircles(lng = ERBs$Longitude, lat = ERBs$Latitude, weight = 3, radius=40, 
-             color="firebrick", stroke = TRUE, fillOpacity = 0.8) %>%
+             color="firebrick", stroke = TRUE, fillOpacity = 0.4) %>%
   addCircles(lng = AEREOS$lon, lat = AEREOS$lat, radius = 500, color = "violet", label = AEREOS$NOME) %>%
   addPolylines(lng = linha1$lon, linha1$lat, dashArray = "5, 5, 1, 5" ,opacity = 1, weight = 2, color = "goldenrod") %>%
   addPolylines(lng = linha2$lon, linha2$lat, dashArray = "5, 5, 1, 5" ,opacity = 1, weight = 2, color = "goldenrod") %>%
@@ -147,12 +147,12 @@ pal <- colorNumeric(c("#0C2C84", "#41B6C4", "#FFFFCC"), values(Paraiba),
                     na.color = "transparent")
 
 
-PBrelevo <-map %>% addRasterImage(Paraiba, col=viridis(100) ,opacity = 0.8, maxBytes = 10*1024*1024, 
+PBrelevo <-map %>% addRasterImage(Paraiba, col=viridis(100) ,opacity = 0.9, maxBytes = 10*1024*1024, 
                       project = TRUE) %>%
-  addPolygons(data = municipios, col="white" , weight = 2) %>%
+  addPolygons(data = municipios, col="white" , weight = 2, fill = FALSE) %>%
   addScaleBar()
 
 
 
-
+PBrelevo
 
