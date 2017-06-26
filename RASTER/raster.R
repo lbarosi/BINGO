@@ -1,3 +1,4 @@
+
 library(raster)
 library(sp)
 library(rgdal)
@@ -9,6 +10,12 @@ library(latticeExtra)
 library(lattice)
 library(readxl)
 library(magrittr)
+suppressMessages(library(reshape2))
+library(leaflet)
+
+#Include data from leaflet
+
+
 #Loadind Data
 
 
@@ -50,6 +57,10 @@ Paraiba <- merge(MAP1, MAP2, MAP3, MAP4)
 #----------------------------------------------------
 P4S.latlon <- CRS("+proj=longlat +datum=WGS84")
 hrr.shp <- readShapePoly("./PB_Mun97_region/PB_Mun97_region.shp", verbose=TRUE, proj4string=P4S.latlon) 
+
+municipios <- readOGR("./PB_Mun97_region/","PB_Mun97_region")
+
+municipios <- spTransform(municipios, CRS("+proj=longlat +datum=WGS84"))
 
 
 ParaibaMap <- levelplot(Paraiba, layers = 1, margin = list(FUN = 'median'), contour = TRUE, par.settings = viridisTheme())
@@ -115,5 +126,33 @@ sitiosZoom <- function(s, z, h){
 
 
 #---------------------
+
+
+map <- leaflet() %>% addTiles() %>% 
+  setView(lng = -38.2, lat = -7, zoom = 10) %>%
+  addCircles(lng = sites$lon, lat = sites$lat, radius = 5000, label = sites$NOME) %>%
+  addCircles(lng = sites$lon, lat = sites$lat, radius = 10, label = sites$NOME) %>%
+  addCircles(lng = ERBs$Longitude, lat = ERBs$Latitude, weight = 3, radius=40, 
+             color="firebrick", stroke = TRUE, fillOpacity = 0.8) %>%
+  addCircles(lng = AEREOS$lon, lat = AEREOS$lat, radius = 500, color = "violet", label = AEREOS$NOME) %>%
+  addPolylines(lng = linha1$lon, linha1$lat, dashArray = "5, 5, 1, 5" ,opacity = 1, weight = 2, color = "goldenrod") %>%
+  addPolylines(lng = linha2$lon, linha2$lat, dashArray = "5, 5, 1, 5" ,opacity = 1, weight = 2, color = "goldenrod") %>%
+  addPolylines(lng = linha3$lon, linha3$lat, dashArray = "5, 5, 1, 5" ,opacity = 1, weight = 2, color = "goldenrod") %>%
+  addPolylines(lng = linha4$lon, linha4$lat, dashArray = "5, 5, 1, 5" ,opacity = 1, weight = 2, color = "goldenrod") %>% 
+  addPolylines(lng = linha5$lon, linha5$lat, dashArray = "5, 5, 1, 5" ,opacity = 1, weight = 2, color = "goldenrod") 
+
+
+
+pal <- colorNumeric(c("#0C2C84", "#41B6C4", "#FFFFCC"), values(Paraiba),
+                    na.color = "transparent")
+
+
+PBrelevo <-map %>% addRasterImage(Paraiba, col=viridis(100) ,opacity = 0.8, maxBytes = 10*1024*1024, 
+                      project = TRUE) %>%
+  addPolygons(data = municipios, col="white" , weight = 2) %>%
+  addScaleBar()
+
+
+
 
 
