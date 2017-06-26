@@ -5,7 +5,7 @@ output: html_document
 ---
 # Map Paraiba: Topography + County limits + OpenStreet Map (WIDGET) 
 
-![Campanha-01](https://github.com/lbarosi/BINGO/blob/master/Raster/mapa.html)
+![Campanha-01](https://github.com/lbarosi/BINGO/blob/master/RASTER/mapa.html)
 
 # Instructions to open maps for visited sites
 
