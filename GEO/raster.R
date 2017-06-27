@@ -12,7 +12,6 @@ library(readxl)
 library(magrittr)
 suppressMessages(library(reshape2))
 library(leaflet)
-library(ggfortify)
 #Include data from leaflet
 
 
@@ -60,30 +59,30 @@ hrr.shp <- readShapePoly("./GEODATA/municipiosPB/i3geomap_municipios_pb", verbos
 
 #UCSproj <- readShapePoly("./municipiosPB/i3geomap_municipios_pb", verbose=TRUE, CRS("+proj=utm +zone=23 +datum=SAD69")) 
 
-municipios <- readOGR("./GEODATA/municipiosPB","i3geomap_municipios_pb")
+municipios <- readOGR("./GEODATA/municipiosPB","i3geomap_municipios_pb", verbose = FALSE)
 municipios <- spTransform(municipios, CRS("+proj=longlat +datum=WGS84"))
 
-glebasFederais <- readOGR("./GEODATA/glebasfederais","i3geomap_glebas_federais")
+glebasFederais <- readOGR("./GEODATA/glebasfederais","i3geomap_glebas_federais", verbose = FALSE)
 glebasFederais <- spTransform(glebasFederais, CRS("+proj=longlat +datum=WGS84"))
 
-imoveisPublicosPB <- readOGR("./GEODATA/publicoPB","i3geomap_imoveiscertificados_publico_pb")
+imoveisPublicosPB <- readOGR("./GEODATA/publicoPB","i3geomap_imoveiscertificados_publico_pb", verbose = FALSE)
 imoveisPublicosPB <- spTransform(imoveisPublicosPB, CRS("+proj=longlat +datum=WGS84"))
 
-imoveisPublicosPB2 <- readOGR("./GEODATA/sigefPublicoPB","i3geomap_certificada_sigef_publico_pb")
+imoveisPublicosPB2 <- readOGR("./GEODATA/sigefPublicoPB","i3geomap_certificada_sigef_publico_pb", verbose = FALSE)
 imoveisPublicosPB2 <- spTransform(imoveisPublicosPB2, CRS("+proj=longlat +datum=WGS84"))
 
 
-imoveisParticularesPB <- readOGR("./GEODATA/privadosPB","i3geomap_imoveiscertificados_privado_pb")
+imoveisParticularesPB <- readOGR("./GEODATA/privadosPB","i3geomap_imoveiscertificados_privado_pb", verbose = FALSE)
 imoveisParticularesPB <- spTransform(imoveisParticularesPB, CRS("+proj=longlat +datum=WGS84"))
 
 
-imoveisParticularesPB2 <- readOGR("./GEODATA/particularPB","i3geomap_certificada_sigef_particular_pb")
+imoveisParticularesPB2 <- readOGR("./GEODATA/particularPB","i3geomap_certificada_sigef_particular_pb", verbose = FALSE)
 imoveisParticularesPB2 <- spTransform(imoveisParticularesPB2, CRS("+proj=longlat +datum=WGS84"))
 
-UCs <- readOGR("./GEODATA/UCs","UCs_fed_junho_2017")
+UCs <- readOGR("./GEODATA/UCs","UCs_fed_junho_2017", verbose = FALSE)
 UCs <- spTransform(UCs, CRS("+proj=longlat +datum=WGS84"))
 
-RPPNs <- readOGR("./GEODATA/RPPN","PB")
+RPPNs <- readOGR("./GEODATA/RPPN","PB", verbose = FALSE)
 RPPNs <- spTransform(RPPNs, CRS("+proj=longlat +datum=WGS84"))
 
 
@@ -94,7 +93,7 @@ pal <- colorNumeric(c("#0C2C84", "#41B6C4", "#FFFFCC"), values(Paraiba),
 
 
 map <- leaflet() %>% addTiles(group = "OSM (default)") %>% 
-  setView(lng = -38.2, lat = -7, zoom = 10) %>%
+  setView(lng = -37.55, lat = -6.97, zoom = 9) %>%
   addCircles(lng = sites$lon, lat = sites$lat, radius = 5000, 
              label = sites$NOME, fillOpacity = 0.01, group = "sites") %>%
   addCircles(lng = sites$lon, lat = sites$lat, radius = 10, 
@@ -123,9 +122,11 @@ map <- leaflet() %>% addTiles(group = "OSM (default)") %>%
               fill = TRUE, opacity = 1,label = imoveisPublicosPB2$DETENTOR10 ,group = "Public Lands") %>%
   addPolygons(data = glebasFederais, col="darkmagenta" , weight = 2, 
               fill = TRUE, opacity = 1, group = "Public Lands") %>%
-  addPolygons(data = imoveisParticularesPB, col = "sienna1", weight = 1, 
+  addPolygons(data = imoveisParticularesPB, col = "sienna1", weight = 1,
+              label = imoveisParticularesPB$NOME_IMO9,
               fill = TRUE, opacity = 0.5, group = "Private Lands") %>%
   addPolygons(data = imoveisParticularesPB2, col = "salmon1", weight = 1, 
+              label = imoveisParticularesPB2$NOME_ARE9,
               fill = TRUE, opacity = 0.5, group = "Private Lands") %>%
   addPolygons(data = UCs, col = "limegreen", weight = 3, fill = TRUE, opacity = 1, 
               label = UCs$nome, group = "UCs") %>%
@@ -138,6 +139,8 @@ map <- leaflet() %>% addTiles(group = "OSM (default)") %>%
                       "Public Lands", "Private Lands",
                       "Elevation", "UCs" ),
     options = layersControlOptions(collapsed = FALSE)
-  )
+  ) %>%
+  hideGroup("Elevation") %>%
+  addMeasure(primaryLengthUnit = "meters", primaryAreaUnit = "sqmeters", localization = "pt_BR")
 
 

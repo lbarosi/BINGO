@@ -17,6 +17,16 @@ output: html_document
 8. Private Lands
 9. Conservation Units (Federal, State and Private properties)
 
+## Controls
+
+1. The +/- signals control the zoom. (You can use the mouse wheel)
+2. Panning the man is done by clicking and dragging.
+3. There's a dinamical scale in the upper-right corner
+4. Select which layers you want to see
+5. The little square box is a distance measure instrument.
+6. You can find the coordinates of any point by start measuring any distance from the desired point.
+7. Hover the mouse over marled areas to see information.
+
 ## Instructions:
 
 You need to download the file. Click on the link below, them **RIGHT-CLICK** the button DOWNLOAD and choose the **SAVE LINK AS** option. After that you should be able to open the file by clicking on it. 
