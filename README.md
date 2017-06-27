@@ -3,6 +3,16 @@ title: "BINGO Sites"
 author: "Luciano Barosi"
 output: html_document
 ---
+
+
+
+# Paraiba: Multi-layer selectable OpenStreet MAP
+
+**Visit the site below and follow the instructions below the file listing.**
+
+![MAP-Layer](https://github.com/lbarosi/BINGO/tree/master/GEO)
+
+
 # Map Paraiba: Topography + County limits + OpenStreet Map (WIDGET) 
 
 ![Campanha-01](https://github.com/lbarosi/BINGO/blob/master/RASTER/mapa.html)
