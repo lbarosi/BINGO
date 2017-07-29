@@ -5,6 +5,9 @@ library(tictoc)
 library(ggplot2)
 source("./findSites.R")
 
+visitados <- read.csv("./sitesvisited.csv")
+
+
 pal <- colorNumeric(c("#0C2C84", "#41B6C4", "#FFFFCC"), values(Paraiba),
                     na.color = "transparent")
 
@@ -67,18 +70,55 @@ mapageral <- leaflet() %>% addTiles(group = "OSM (default)") %>%
   addScaleBar()
 
 
-#Se misturar versões diferentes do arquivo tem que checar de novo. lista de ERBs mudaram
-#silencioRev <- verificaSitios(silencio)
-#silencio    <- silencioRev[,-c(3:5)]
-#silencio    <- silencio[,-c(6:8)]
-#silencio    %<>% filter(., Ruído < -70)
-#Função para sitio com levelplot
 silencioDF <- silencio
 coordinates(ERBs) <- c("Longitude","Latitude")
 
 coordinates(silencioDF) <- c("lon","lat")
 #----------------------------------------------
+
 #Análise
+sitiosZoomDF <- function(df,s, z, h){
+  
+  sitio <- df
+  passo <- z
+  n <- s  
+  
+  Xlim <- c(sitio$lon[[n]]-passo,sitio$lon[[n]]+passo)
+  Ylim <- c(sitio$lat[[n]]-passo,sitio$lat[[n]]+passo)
+  
+  Extend <- c(unlist(Xlim),unlist(Ylim))
+  
+  mapa <- crop(Paraiba, extent(Xlim[[1]],Xlim[[2]], Ylim[[1]], Ylim[[2]]))
+
+  zmin <- (minValue(mapa) %/% 100) * 100
+  zmax <- (maxValue(mapa) %/% 100) * 100
+  
+  my.at <- seq(zmin, zmax, h)
+  
+  zoomMap<- levelplot(Paraiba, 
+                      layers = 1, 
+                      contour = TRUE,
+                      xlim = Xlim,
+                      ylim = Ylim,
+                      at = my.at,
+                      drop.unused.levels = TRUE,
+                      margin = FALSE,
+                      par.settings = viridisTheme()
+  )
+  
+  result <- zoomMap + layer(sp.points(ERBs, col = "red", pch="+", cex=1)) + 
+    layer(sp.lines(hrr.shp, col = "white", lwd = 0.8))+
+    layer(sp.points(df, col = "darkorange1", cex=1, pch = 9))
+  
+  print(result)
+  
+}
+
+
+sitiosZoomDF(visitados,4,0.1,25)
+
+
+#--------------------------------------------
 sitiosZoom <- function(s, z, h){
   
   sitio <- silencioDF

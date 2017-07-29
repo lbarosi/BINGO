@@ -44,8 +44,10 @@ randomSitios <- function(n,xmin,xmax,ymin,ymax,seed,name){
 
 #############
 seed  <- 12
-n     <- 200
-delta <- 0.25 #Raio de 120km
+#n     <- 200
+n     <- 50
+#delta <- 0.25 #Raio de 120km
+delta <- 0.10
 
 cajazeiras      <- geocode("Cajazeiras Paraiba Brasil")
 CampinaGrande   <- geocode("Campina Grande Paraiba Brasil")
@@ -57,7 +59,7 @@ Balanca         <- geocode("Balanca Paraiba Brasil")
 SJTapada        <- geocode("São José da Lagoa Tapada Paraiba Brasil")
 SJPeixe         <- geocode("São João do Rio do Peixe Paraiba Brasil")
 SJPiranhas      <- geocode("São Jose de Piranhas Paraiba Brasil")
-
+RPPNAlmas       <- geocode("RPPN Almas, São José dos Cordeiros, Paraíba,")
 #Sites de interesse
 tic()
 Rcajazeiras      <- randomSitios(n,cajazeiras[[1]]-delta,cajazeiras[[1]]+delta,
@@ -91,5 +93,8 @@ RSPeixe          <- randomSitios(n,SJPeixe[[1]]-delta,SJPeixe[[1]]+delta,
 RSPiranhas       <- randomSitios(n,SJPiranhas[[1]]-delta,SJPiranhas[[1]]+delta,
                                  SJPiranhas[[2]]-delta,SJPiranhas[[2]]+delta,seed,
                                "./RandomSites/SJPiranhas.csv")
+RSRPPNAlmas      <- randomSitios(n,RPPNAlmas[[1]]-delta,RPPNAlmas[[1]]+delta,
+                                 RPPNAlmas[[2]]-delta,RPPNAlmas[[2]]+delta,seed,
+                                 "./RandomSites/RPPNAlmas.csv")
 exectime <- toc()
 Signaltime <- exectime$toc - exectime$toc

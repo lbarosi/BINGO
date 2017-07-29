@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?aid style="50" type="snippet" readerVersion="6.0" featureSet="257" product="12.1(56)" ?>
+<?aid SnippetType="InCopyInterchange"?>
+<Document DOMVersion="12.1" Self="d">
+	<Color Self="Color/Black" Model="Process" Space="CMYK" ColorValue="0 0 0 100" ColorOverride="Specialblack" AlternateSpace="NoAlternateColor" AlternateColorValue="" Name="Black" ColorEditable="false" ColorRemovable="false" Visible="true" SwatchCreatorID="7937" SwatchColorGroupReference="u1e8fColorGroupSwatch3" />
+	<Color Self="Color/azulclaroUFCG" Model="Process" Space="CMYK" ColorValue="70.8400011062622 12.950000166893005 0 0" ColorOverride="Normal" AlternateSpace="NoAlternateColor" AlternateColorValue="" Name="azulclaroUFCG" ColorEditable="true" ColorRemovable="true" Visible="true" SwatchCreatorID="7937" SwatchColorGroupReference="u10940ColorGroupSwatch5" />
+	<Ink Self="Ink/$ID/Process Cyan" Name="$ID/Process Cyan" Angle="75" ConvertToProcess="false" Frequency="70" NeutralDensity="0.61" PrintInk="true" TrapOrder="1" InkType="Normal" />
+	<Ink Self="Ink/$ID/Process Magenta" Name="$ID/Process Magenta" Angle="15" ConvertToProcess="false" Frequency="70" NeutralDensity="0.76" PrintInk="true" TrapOrder="2" InkType="Normal" />
+	<Ink Self="Ink/$ID/Process Yellow" Name="$ID/Process Yellow" Angle="0" ConvertToProcess="false" Frequency="70" NeutralDensity="0.16" PrintInk="true" TrapOrder="3" InkType="Normal" />
+	<Ink Self="Ink/$ID/Process Black" Name="$ID/Process Black" Angle="45" ConvertToProcess="false" Frequency="70" NeutralDensity="1.7" PrintInk="true" TrapOrder="4" InkType="Normal" />
+	<FontFamily Self="di3e" Name="Minion Pro">
+		<Font Self="di3eFontnMinion Pro Bold Cond" FontFamily="Minion Pro" Name="Minion Pro Bold Cond" PostScriptName="MinionPro-BoldCn" Status="Substituted" FontStyleName="Bold Cond" FontType="OpenTypeCFF" WritingScript="0" FullName="Minion Pro Bold Cond" FullNameNative="Minion Pro Bold Cond" FontStyleNameNative="Bold Cond" PlatformName="$ID/" Version="Version 2.108;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di3eFontnMinion Pro Bold Cond Italic" FontFamily="Minion Pro" Name="Minion Pro Bold Cond Italic" PostScriptName="MinionPro-BoldCnIt" Status="Substituted" FontStyleName="Bold Cond Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Minion Pro Bold Cond Italic" FullNameNative="Minion Pro Bold Cond Italic" FontStyleNameNative="Bold Cond Italic" PlatformName="$ID/" Version="Version 2.108;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di3eFontnMinion Pro Regular" FontFamily="Minion Pro" Name="Minion Pro Regular" PostScriptName="MinionPro-Regular" Status="Installed" FontStyleName="Regular" FontType="OpenTypeCFF" WritingScript="0" FullName="Minion Pro" FullNameNative="Minion Pro" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 2.108;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di3eFontnMinion Pro Italic" FontFamily="Minion Pro" Name="Minion Pro Italic" PostScriptName="MinionPro-It" Status="Substituted" FontStyleName="Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Minion Pro Italic" FullNameNative="Minion Pro Italic" FontStyleNameNative="Italic" PlatformName="$ID/" Version="Version 2.108;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di3eFontnMinion Pro Medium" FontFamily="Minion Pro" Name="Minion Pro Medium" PostScriptName="MinionPro-Medium" Status="Substituted" FontStyleName="Medium" FontType="OpenTypeCFF" WritingScript="0" FullName="Minion Pro Medium" FullNameNative="Minion Pro Medium" FontStyleNameNative="Medium" PlatformName="$ID/" Version="Version 2.108;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di3eFontnMinion Pro Medium Italic" FontFamily="Minion Pro" Name="Minion Pro Medium Italic" PostScriptName="MinionPro-MediumIt" Status="Substituted" FontStyleName="Medium Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Minion Pro Medium Italic" FullNameNative="Minion Pro Medium Italic" FontStyleNameNative="Medium Italic" PlatformName="$ID/" Version="Version 2.108;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di3eFontnMinion Pro Semibold" FontFamily="Minion Pro" Name="Minion Pro Semibold" PostScriptName="MinionPro-Semibold" Status="Substituted" FontStyleName="Semibold" FontType="OpenTypeCFF" WritingScript="0" FullName="Minion Pro Semibold" FullNameNative="Minion Pro Semibold" FontStyleNameNative="Semibold" PlatformName="$ID/" Version="Version 2.108;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di3eFontnMinion Pro Semibold Italic" FontFamily="Minion Pro" Name="Minion Pro Semibold Italic" PostScriptName="MinionPro-SemiboldIt" Status="Substituted" FontStyleName="Semibold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Minion Pro Semibold Italic" FullNameNative="Minion Pro Semibold Italic" FontStyleNameNative="Semibold Italic" PlatformName="$ID/" Version="Version 2.108;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di3eFontnMinion Pro Bold" FontFamily="Minion Pro" Name="Minion Pro Bold" PostScriptName="MinionPro-Bold" Status="Substituted" FontStyleName="Bold" FontType="OpenTypeCFF" WritingScript="0" FullName="Minion Pro Bold" FullNameNative="Minion Pro Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="Version 2.108;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di3eFontnMinion Pro Bold Italic" FontFamily="Minion Pro" Name="Minion Pro Bold Italic" PostScriptName="MinionPro-BoldIt" Status="Substituted" FontStyleName="Bold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Minion Pro Bold Italic" FullNameNative="Minion Pro Bold Italic" FontStyleNameNative="Bold Italic" PlatformName="$ID/" Version="Version 2.108;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="di95" Name="Myriad Pro">
+		<Font Self="di95FontnMyriad Pro Condensed" FontFamily="Myriad Pro" Name="Myriad Pro Condensed" PostScriptName="MyriadPro-Cond" Status="Substituted" FontStyleName="Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Condensed" FullNameNative="Myriad Pro Condensed" FontStyleNameNative="Condensed" PlatformName="$ID/" Version="Version 2.102;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Condensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro Condensed Italic" PostScriptName="MyriadPro-CondIt" Status="Substituted" FontStyleName="Condensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Condensed Italic" FullNameNative="Myriad Pro Condensed Italic" FontStyleNameNative="Condensed Italic" PlatformName="$ID/" Version="Version 2.102;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Bold Condensed" FontFamily="Myriad Pro" Name="Myriad Pro Bold Condensed" PostScriptName="MyriadPro-BoldCond" Status="Substituted" FontStyleName="Bold Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold Condensed" FullNameNative="Myriad Pro Bold Condensed" FontStyleNameNative="Bold Condensed" PlatformName="$ID/" Version="Version 2.102;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Bold Condensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro Bold Condensed Italic" PostScriptName="MyriadPro-BoldCondIt" Status="Substituted" FontStyleName="Bold Condensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold Condensed Italic" FullNameNative="Myriad Pro Bold Condensed Italic" FontStyleNameNative="Bold Condensed Italic" PlatformName="$ID/" Version="Version 2.102;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Regular" FontFamily="Myriad Pro" Name="Myriad Pro Regular" PostScriptName="MyriadPro-Regular" Status="Installed" FontStyleName="Regular" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro" FullNameNative="Myriad Pro" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 2.102;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Italic" FontFamily="Myriad Pro" Name="Myriad Pro Italic" PostScriptName="MyriadPro-It" Status="Installed" FontStyleName="Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Italic" FullNameNative="Myriad Pro Italic" FontStyleNameNative="Italic" PlatformName="$ID/" Version="Version 2.102;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Semibold" FontFamily="Myriad Pro" Name="Myriad Pro Semibold" PostScriptName="MyriadPro-Semibold" Status="Substituted" FontStyleName="Semibold" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Semibold" FullNameNative="Myriad Pro Semibold" FontStyleNameNative="Semibold" PlatformName="$ID/" Version="Version 2.102;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Semibold Italic" FontFamily="Myriad Pro" Name="Myriad Pro Semibold Italic" PostScriptName="MyriadPro-SemiboldIt" Status="Substituted" FontStyleName="Semibold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Semibold Italic" FullNameNative="Myriad Pro Semibold Italic" FontStyleNameNative="Semibold Italic" PlatformName="$ID/" Version="Version 2.102;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Bold" FontFamily="Myriad Pro" Name="Myriad Pro Bold" PostScriptName="MyriadPro-Bold" Status="Installed" FontStyleName="Bold" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold" FullNameNative="Myriad Pro Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="Version 2.102;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Bold Italic" FontFamily="Myriad Pro" Name="Myriad Pro Bold Italic" PostScriptName="MyriadPro-BoldIt" Status="Installed" FontStyleName="Bold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold Italic" FullNameNative="Myriad Pro Bold Italic" FontStyleNameNative="Bold Italic" PlatformName="$ID/" Version="Version 2.102;PS 2.000;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Light Condensed" FontFamily="Myriad Pro" Name="Myriad Pro Light Condensed" PostScriptName="MyriadPro-LightCond" Status="Substituted" FontStyleName="Light Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Light Condensed" FullNameNative="Myriad Pro Light Condensed" FontStyleNameNative="Light Condensed" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Light Condensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro Light Condensed Italic" PostScriptName="MyriadPro-LightCondIt" Status="Substituted" FontStyleName="Light Condensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Light Condensed Italic" FullNameNative="Myriad Pro Light Condensed Italic" FontStyleNameNative="Light Condensed Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Semibold Condensed" FontFamily="Myriad Pro" Name="Myriad Pro Semibold Condensed" PostScriptName="MyriadPro-SemiboldCond" Status="Substituted" FontStyleName="Semibold Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Semibold Condensed" FullNameNative="Myriad Pro Semibold Condensed" FontStyleNameNative="Semibold Condensed" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Semibold Condensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro Semibold Condensed Italic" PostScriptName="MyriadPro-SemiboldCondIt" Status="Substituted" FontStyleName="Semibold Condensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Semibold Condensed Italic" FullNameNative="Myriad Pro Semibold Condensed Italic" FontStyleNameNative="Semibold Condensed Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Black Condensed" FontFamily="Myriad Pro" Name="Myriad Pro Black Condensed" PostScriptName="MyriadPro-BlackCond" Status="Substituted" FontStyleName="Black Condensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Black Condensed" FullNameNative="Myriad Pro Black Condensed" FontStyleNameNative="Black Condensed" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Black Condensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro Black Condensed Italic" PostScriptName="MyriadPro-BlackCondIt" Status="Substituted" FontStyleName="Black Condensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Black Condensed Italic" FullNameNative="Myriad Pro Black Condensed Italic" FontStyleNameNative="Black Condensed Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Light SemiCondensed" FontFamily="Myriad Pro" Name="Myriad Pro Light SemiCondensed" PostScriptName="MyriadPro-LightSemiCn" Status="Substituted" FontStyleName="Light SemiCondensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Light SemiCondensed" FullNameNative="Myriad Pro Light SemiCondensed" FontStyleNameNative="Light SemiCondensed" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Light SemiCondensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro Light SemiCondensed Italic" PostScriptName="MyriadPro-LightSemiCnIt" Status="Substituted" FontStyleName="Light SemiCondensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Light SemiCondensed Italic" FullNameNative="Myriad Pro Light SemiCondensed Italic" FontStyleNameNative="Light SemiCondensed Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro SemiCondensed" FontFamily="Myriad Pro" Name="Myriad Pro SemiCondensed" PostScriptName="MyriadPro-SemiCn" Status="Substituted" FontStyleName="SemiCondensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro SemiCondensed" FullNameNative="Myriad Pro SemiCondensed" FontStyleNameNative="SemiCondensed" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro SemiCondensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro SemiCondensed Italic" PostScriptName="MyriadPro-SemiCnIt" Status="Substituted" FontStyleName="SemiCondensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro SemiCondensed Italic" FullNameNative="Myriad Pro SemiCondensed Italic" FontStyleNameNative="SemiCondensed Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Semibold SemiCondensed" FontFamily="Myriad Pro" Name="Myriad Pro Semibold SemiCondensed" PostScriptName="MyriadPro-SemiboldSemiCn" Status="Substituted" FontStyleName="Semibold SemiCondensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Semibold SemiCondensed" FullNameNative="Myriad Pro Semibold SemiCondensed" FontStyleNameNative="Semibold SemiCondensed" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Semibold SemiCondensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro Semibold SemiCondensed Italic" PostScriptName="MyriadPro-SemiboldSemiCnIt" Status="Substituted" FontStyleName="Semibold SemiCondensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Semibold SemiCondensed Italic" FullNameNative="Myriad Pro Semibold SemiCondensed Italic" FontStyleNameNative="Semibold SemiCondensed Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Bold SemiCondensed" FontFamily="Myriad Pro" Name="Myriad Pro Bold SemiCondensed" PostScriptName="MyriadPro-BoldSemiCn" Status="Substituted" FontStyleName="Bold SemiCondensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold SemiCondensed" FullNameNative="Myriad Pro Bold SemiCondensed" FontStyleNameNative="Bold SemiCondensed" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Bold SemiCondensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro Bold SemiCondensed Italic" PostScriptName="MyriadPro-BoldSemiCnIt" Status="Substituted" FontStyleName="Bold SemiCondensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold SemiCondensed Italic" FullNameNative="Myriad Pro Bold SemiCondensed Italic" FontStyleNameNative="Bold SemiCondensed Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Black SemiCondensed" FontFamily="Myriad Pro" Name="Myriad Pro Black SemiCondensed" PostScriptName="MyriadPro-BlackSemiCn" Status="Substituted" FontStyleName="Black SemiCondensed" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Black SemiCondensed" FullNameNative="Myriad Pro Black SemiCondensed" FontStyleNameNative="Black SemiCondensed" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Black SemiCondensed Italic" FontFamily="Myriad Pro" Name="Myriad Pro Black SemiCondensed Italic" PostScriptName="MyriadPro-BlackSemiCnIt" Status="Substituted" FontStyleName="Black SemiCondensed Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Black SemiCondensed Italic" FullNameNative="Myriad Pro Black SemiCondensed Italic" FontStyleNameNative="Black SemiCondensed Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Light" FontFamily="Myriad Pro" Name="Myriad Pro Light" PostScriptName="MyriadPro-Light" Status="Substituted" FontStyleName="Light" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Light" FullNameNative="Myriad Pro Light" FontStyleNameNative="Light" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Light Italic" FontFamily="Myriad Pro" Name="Myriad Pro Light Italic" PostScriptName="MyriadPro-LightIt" Status="Substituted" FontStyleName="Light Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Light Italic" FullNameNative="Myriad Pro Light Italic" FontStyleNameNative="Light Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Black" FontFamily="Myriad Pro" Name="Myriad Pro Black" PostScriptName="MyriadPro-Black" Status="Substituted" FontStyleName="Black" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Black" FullNameNative="Myriad Pro Black" FontStyleNameNative="Black" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Black Italic" FontFamily="Myriad Pro" Name="Myriad Pro Black Italic" PostScriptName="MyriadPro-BlackIt" Status="Substituted" FontStyleName="Black Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Black Italic" FullNameNative="Myriad Pro Black Italic" FontStyleNameNative="Black Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Light SemiExtended" FontFamily="Myriad Pro" Name="Myriad Pro Light SemiExtended" PostScriptName="MyriadPro-LightSemiExt" Status="Substituted" FontStyleName="Light SemiExtended" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Light SemiExtended" FullNameNative="Myriad Pro Light SemiExtended" FontStyleNameNative="Light SemiExtended" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Light SemiExtended Italic" FontFamily="Myriad Pro" Name="Myriad Pro Light SemiExtended Italic" PostScriptName="MyriadPro-LightSemiExtIt" Status="Substituted" FontStyleName="Light SemiExtended Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Light SemiExtended Italic" FullNameNative="Myriad Pro Light SemiExtended Italic" FontStyleNameNative="Light SemiExtended Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro SemiExtended" FontFamily="Myriad Pro" Name="Myriad Pro SemiExtended" PostScriptName="MyriadPro-SemiExt" Status="Substituted" FontStyleName="SemiExtended" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro SemiExtended" FullNameNative="Myriad Pro SemiExtended" FontStyleNameNative="SemiExtended" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro SemiExtended Italic" FontFamily="Myriad Pro" Name="Myriad Pro SemiExtended Italic" PostScriptName="MyriadPro-SemiExtIt" Status="Substituted" FontStyleName="SemiExtended Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro SemiExtended Italic" FullNameNative="Myriad Pro SemiExtended Italic" FontStyleNameNative="SemiExtended Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Semibold SemiExtended" FontFamily="Myriad Pro" Name="Myriad Pro Semibold SemiExtended" PostScriptName="MyriadPro-SemiboldSemiExt" Status="Substituted" FontStyleName="Semibold SemiExtended" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Semibold SemiExtended" FullNameNative="Myriad Pro Semibold SemiExtended" FontStyleNameNative="Semibold SemiExtended" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Semibold SemiExtended Italic" FontFamily="Myriad Pro" Name="Myriad Pro Semibold SemiExtended Italic" PostScriptName="MyriadPro-SemiboldSemiExtIt" Status="Substituted" FontStyleName="Semibold SemiExtended Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Semibold SemiExtended Italic" FullNameNative="Myriad Pro Semibold SemiExtended Italic" FontStyleNameNative="Semibold SemiExtended Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Bold SemiExtended" FontFamily="Myriad Pro" Name="Myriad Pro Bold SemiExtended" PostScriptName="MyriadPro-BoldSemiExt" Status="Substituted" FontStyleName="Bold SemiExtended" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold SemiExtended" FullNameNative="Myriad Pro Bold SemiExtended" FontStyleNameNative="Bold SemiExtended" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Bold SemiExtended Italic" FontFamily="Myriad Pro" Name="Myriad Pro Bold SemiExtended Italic" PostScriptName="MyriadPro-BoldSemiExtIt" Status="Substituted" FontStyleName="Bold SemiExtended Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold SemiExtended Italic" FullNameNative="Myriad Pro Bold SemiExtended Italic" FontStyleNameNative="Bold SemiExtended Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Black SemiExtended" FontFamily="Myriad Pro" Name="Myriad Pro Black SemiExtended" PostScriptName="MyriadPro-BlackSemiExt" Status="Substituted" FontStyleName="Black SemiExtended" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Black SemiExtended" FullNameNative="Myriad Pro Black SemiExtended" FontStyleNameNative="Black SemiExtended" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+		<Font Self="di95FontnMyriad Pro Black SemiExtended Italic" FontFamily="Myriad Pro" Name="Myriad Pro Black SemiExtended Italic" PostScriptName="MyriadPro-BlackSemiExtIt" Status="Substituted" FontStyleName="Black SemiExtended Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Black SemiExtended Italic" FullNameNative="Myriad Pro Black SemiExtended Italic" FontStyleNameNative="Black SemiExtended Italic" PlatformName="$ID/" Version="Version 2.037;PS 2.000;hotconv 1.0.51;makeotf.lib2.0.18671" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="dia2" Name="Kozuka Mincho Pro">
+		<Font Self="dia2FontnKozuka Mincho Pro EL" FontFamily="Kozuka Mincho Pro" Name="Kozuka Mincho Pro EL" PostScriptName="KozMinPro-ExtraLight" Status="Substituted" FontStyleName="EL" FontType="OpenTypeCID" WritingScript="1" FullName="Kozuka Mincho Pro EL" FullNameNative="小塚明朝 Pro EL" FontStyleNameNative="EL" PlatformName="$ID/" Version="Version 4.013;PS 4.003;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="dia2FontnKozuka Mincho Pro L" FontFamily="Kozuka Mincho Pro" Name="Kozuka Mincho Pro L" PostScriptName="KozMinPro-Light" Status="Substituted" FontStyleName="L" FontType="OpenTypeCID" WritingScript="1" FullName="Kozuka Mincho Pro L" FullNameNative="小塚明朝 Pro L" FontStyleNameNative="L" PlatformName="$ID/" Version="Version 4.013;PS 4.003;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="dia2FontnKozuka Mincho Pro R" FontFamily="Kozuka Mincho Pro" Name="Kozuka Mincho Pro R" PostScriptName="KozMinPro-Regular" Status="Substituted" FontStyleName="R" FontType="OpenTypeCID" WritingScript="1" FullName="Kozuka Mincho Pro R" FullNameNative="小塚明朝 Pro R" FontStyleNameNative="R" PlatformName="$ID/" Version="Version 4.013;PS 4.003;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="dia2FontnKozuka Mincho Pro M" FontFamily="Kozuka Mincho Pro" Name="Kozuka Mincho Pro M" PostScriptName="KozMinPro-Medium" Status="Substituted" FontStyleName="M" FontType="OpenTypeCID" WritingScript="1" FullName="Kozuka Mincho Pro M" FullNameNative="小塚明朝 Pro M" FontStyleNameNative="M" PlatformName="$ID/" Version="Version 4.013;PS 4.003;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="dia2FontnKozuka Mincho Pro B" FontFamily="Kozuka Mincho Pro" Name="Kozuka Mincho Pro B" PostScriptName="KozMinPro-Bold" Status="Substituted" FontStyleName="B" FontType="OpenTypeCID" WritingScript="1" FullName="Kozuka Mincho Pro B" FullNameNative="小塚明朝 Pro B" FontStyleNameNative="B" PlatformName="$ID/" Version="Version 4.013;PS 4.003;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+		<Font Self="dia2FontnKozuka Mincho Pro H" FontFamily="Kozuka Mincho Pro" Name="Kozuka Mincho Pro H" PostScriptName="KozMinPro-Heavy" Status="Substituted" FontStyleName="H" FontType="OpenTypeCID" WritingScript="1" FullName="Kozuka Mincho Pro H" FullNameNative="小塚明朝 Pro H" FontStyleNameNative="H" PlatformName="$ID/" Version="Version 4.013;PS 4.003;hotconv 1.0.67;makeotf.lib2.5.33168" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="di1f0f" Name="Bungee">
+		<Font Self="di1f0fFontnBungee Regular" FontFamily="Bungee" Name="Bungee Regular" PostScriptName="Bungee-Regular" Status="Installed" FontStyleName="Regular" FontType="OpenTypeCFF" WritingScript="0" FullName="Bungee Regular" FullNameNative="Bungee Regular" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 1.000;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900" TypekitID="TkD-28873-79ce91d10bd7b31b3940421eb3949f8f3fd6cdff" />
+		<Font Self="di1f0fFontnBungee Hairline" FontFamily="Bungee" Name="Bungee Hairline" PostScriptName="Bungee-Hairline" Status="Substituted" FontStyleName="Hairline" FontType="OpenTypeCFF" WritingScript="0" FullName="Bungee Hairline" FullNameNative="Bungee Hairline" FontStyleNameNative="Hairline" PlatformName="$ID/" Version="Version 1.000;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900" TypekitID="TkD-28874-5b70cd84117257aa9e2f9ddeb5ca86c39b9c68d0" />
+		<Font Self="di1f0fFontnBungee Inline" FontFamily="Bungee" Name="Bungee Inline" PostScriptName="Bungee-Inline" Status="Substituted" FontStyleName="Inline" FontType="OpenTypeCFF" WritingScript="0" FullName="Bungee Inline" FullNameNative="Bungee Inline" FontStyleNameNative="Inline" PlatformName="$ID/" Version="Version 1.000;PS 1.0;hotconv 1.0.72;makeotf.lib2.5.5900" TypekitID="TkD-28875-6bf6b98bfc54bf44f61fa02bc6761496316c42af" />
+	</FontFamily>
+	<FontFamily Self="di1f44" Name="Roboto Slab">
+		<Font Self="di1f44FontnRoboto Slab Thin" FontFamily="Roboto Slab" Name="Roboto Slab Thin" PostScriptName="RobotoSlab-Thin" Status="Substituted" FontStyleName="Thin" FontType="OpenTypeTT" WritingScript="0" FullName="Roboto Slab Thin" FullNameNative="Roboto Slab Thin" FontStyleNameNative="Thin" PlatformName="$ID/" Version="Version 1.100263; 2013; ttfautohint (v0.94.20-1c74) -l 8 -r 12 -G 200 -x 14 -w &quot;&quot; -W" TypekitID="TkD-28906-0d3f06934c1ec642d13be246c58c415032f8e77b" />
+		<Font Self="di1f44FontnRoboto Slab Light" FontFamily="Roboto Slab" Name="Roboto Slab Light" PostScriptName="RobotoSlab-Light" Status="Installed" FontStyleName="Light" FontType="OpenTypeTT" WritingScript="0" FullName="Roboto Slab Light" FullNameNative="Roboto Slab Light" FontStyleNameNative="Light" PlatformName="$ID/" Version="Version 1.100263; 2013; ttfautohint (v0.94.20-1c74) -l 8 -r 12 -G 200 -x 14 -w &quot;&quot; -W" TypekitID="TkD-28907-3df6ce021ef6458dbb26074bb8997ed1983ef5ac" />
+		<Font Self="di1f44FontnRoboto Slab Regular" FontFamily="Roboto Slab" Name="Roboto Slab Regular" PostScriptName="RobotoSlab-Regular" Status="Installed" FontStyleName="Regular" FontType="OpenTypeTT" WritingScript="0" FullName="Roboto Slab Regular" FullNameNative="Roboto Slab Regular" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 1.100263; 2013; ttfautohint (v0.94.20-1c74) -l 8 -r 12 -G 200 -x 14 -w &quot;&quot; -W" TypekitID="TkD-28908-f636f603ba75f8e94ff932bd75bb777e103165fb" />
+		<Font Self="di1f44FontnRoboto Slab Bold" FontFamily="Roboto Slab" Name="Roboto Slab Bold" PostScriptName="RobotoSlab-Bold" Status="Installed" FontStyleName="Bold" FontType="OpenTypeTT" WritingScript="0" FullName="Roboto Slab Bold" FullNameNative="Roboto Slab Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="Version 1.100263; 2013; ttfautohint (v0.94.20-1c74) -l 8 -r 12 -G 200 -x 14 -w &quot;&quot; -W" TypekitID="TkD-28909-bb527c791b37d3fc857a98a7408b2d8b4fb559b6" />
+	</FontFamily>
+	<FontFamily Self="diec36" Name="Cinzel">
+		<Font Self="diec36FontnCinzel Regular" FontFamily="Cinzel" Name="Cinzel Regular" PostScriptName="Cinzel-Regular" Status="Installed" FontStyleName="Regular" FontType="OpenTypeTT" WritingScript="0" FullName="Cinzel-Regular" FullNameNative="Cinzel-Regular" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 1.001;PS 001.001;hotconv 1.0.56;makeotf.lib2.0.21325" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="diec97" Name="Abril Fatface">
+		<Font Self="diec97FontnAbril Fatface Regular" FontFamily="Abril Fatface" Name="Abril Fatface Regular" PostScriptName="AbrilFatface-Regular" Status="Installed" FontStyleName="Regular" FontType="OpenTypeTT" WritingScript="0" FullName="Abril Fatface" FullNameNative="Abril Fatface" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 1.001" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="difb0f" Name="Baskerville">
+		<Font Self="difb0fFontnBaskerville Regular" FontFamily="Baskerville" Name="Baskerville Regular" PostScriptName="Baskerville" Status="Installed" FontStyleName="Regular" FontType="TrueType" WritingScript="0" FullName="Baskerville" FullNameNative="Baskerville" FontStyleNameNative="Regular" PlatformName="$ID/" Version="12.0d2e3" TypekitID="$ID/" />
+		<Font Self="difb0fFontnBaskerville Italic" FontFamily="Baskerville" Name="Baskerville Italic" PostScriptName="Baskerville-Italic" Status="Installed" FontStyleName="Italic" FontType="TrueType" WritingScript="0" FullName="Baskerville Italic" FullNameNative="Baskerville Italic" FontStyleNameNative="Italic" PlatformName="$ID/" Version="12.0d2e3" TypekitID="$ID/" />
+		<Font Self="difb0fFontnBaskerville SemiBold" FontFamily="Baskerville" Name="Baskerville SemiBold" PostScriptName="Baskerville-SemiBold" Status="Installed" FontStyleName="SemiBold" FontType="TrueType" WritingScript="0" FullName="Baskerville SemiBold" FullNameNative="Baskerville SemiBold" FontStyleNameNative="SemiBold" PlatformName="$ID/" Version="12.0d2e3" TypekitID="$ID/" />
+		<Font Self="difb0fFontnBaskerville SemiBold Italic" FontFamily="Baskerville" Name="Baskerville SemiBold Italic" PostScriptName="Baskerville-SemiBoldItalic" Status="Installed" FontStyleName="SemiBold Italic" FontType="TrueType" WritingScript="0" FullName="Baskerville SemiBold Italic" FullNameNative="Baskerville SemiBold Italic" FontStyleNameNative="SemiBold Italic" PlatformName="$ID/" Version="12.0d2e3" TypekitID="$ID/" />
+		<Font Self="difb0fFontnBaskerville Bold" FontFamily="Baskerville" Name="Baskerville Bold" PostScriptName="Baskerville-Bold" Status="Installed" FontStyleName="Bold" FontType="TrueType" WritingScript="0" FullName="Baskerville Bold" FullNameNative="Baskerville Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="12.0d2e3" TypekitID="$ID/" />
+		<Font Self="difb0fFontnBaskerville Bold Italic" FontFamily="Baskerville" Name="Baskerville Bold Italic" PostScriptName="Baskerville-BoldItalic" Status="Installed" FontStyleName="Bold Italic" FontType="TrueType" WritingScript="0" FullName="Baskerville Bold Italic" FullNameNative="Baskerville Bold Italic" FontStyleNameNative="Bold Italic" PlatformName="$ID/" Version="12.0d2e3" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="difb10" Name="Avenir Next">
+		<Font Self="difb10FontnAvenir Next Ultra Light" FontFamily="Avenir Next" Name="Avenir Next Ultra Light" PostScriptName="AvenirNext-UltraLight" Status="Installed" FontStyleName="Ultra Light" FontType="TrueType" WritingScript="0" FullName="AvenirNext-UltraLight" FullNameNative="AvenirNext-UltraLight" FontStyleNameNative="Ultra Light" PlatformName="$ID/" Version="12.0d1e9" TypekitID="$ID/" />
+		<Font Self="difb10FontnAvenir Next Ultra Light Italic" FontFamily="Avenir Next" Name="Avenir Next Ultra Light Italic" PostScriptName="AvenirNext-UltraLightItalic" Status="Installed" FontStyleName="Ultra Light Italic" FontType="TrueType" WritingScript="0" FullName="Avenir Next Ultra Light Italic" FullNameNative="Avenir Next Ultra Light Italic" FontStyleNameNative="Ultra Light Italic" PlatformName="$ID/" Version="12.0d1e9" TypekitID="$ID/" />
+		<Font Self="difb10FontnAvenir Next Regular" FontFamily="Avenir Next" Name="Avenir Next Regular" PostScriptName="AvenirNext-Regular" Status="Installed" FontStyleName="Regular" FontType="TrueType" WritingScript="0" FullName="Avenir Next Regular" FullNameNative="Avenir Next Regular" FontStyleNameNative="Regular" PlatformName="$ID/" Version="12.0d1e9" TypekitID="$ID/" />
+		<Font Self="difb10FontnAvenir Next Italic" FontFamily="Avenir Next" Name="Avenir Next Italic" PostScriptName="AvenirNext-Italic" Status="Installed" FontStyleName="Italic" FontType="TrueType" WritingScript="0" FullName="Avenir Next Italic" FullNameNative="Avenir Next Italic" FontStyleNameNative="Italic" PlatformName="$ID/" Version="12.0d1e9" TypekitID="$ID/" />
+		<Font Self="difb10FontnAvenir Next Medium" FontFamily="Avenir Next" Name="Avenir Next Medium" PostScriptName="AvenirNext-Medium" Status="Installed" FontStyleName="Medium" FontType="TrueType" WritingScript="0" FullName="Avenir Next Medium" FullNameNative="Avenir Next Medium" FontStyleNameNative="Medium" PlatformName="$ID/" Version="12.0d1e9" TypekitID="$ID/" />
+		<Font Self="difb10FontnAvenir Next Medium Italic" FontFamily="Avenir Next" Name="Avenir Next Medium Italic" PostScriptName="AvenirNext-MediumItalic" Status="Installed" FontStyleName="Medium Italic" FontType="TrueType" WritingScript="0" FullName="Avenir Next Medium Italic" FullNameNative="Avenir Next Medium Italic" FontStyleNameNative="Medium Italic" PlatformName="$ID/" Version="12.0d1e9" TypekitID="$ID/" />
+		<Font Self="difb10FontnAvenir Next Demi Bold" FontFamily="Avenir Next" Name="Avenir Next Demi Bold" PostScriptName="AvenirNext-DemiBold" Status="Installed" FontStyleName="Demi Bold" FontType="TrueType" WritingScript="0" FullName="Avenir Next Demi Bold" FullNameNative="Avenir Next Demi Bold" FontStyleNameNative="Demi Bold" PlatformName="$ID/" Version="12.0d1e9" TypekitID="$ID/" />
+		<Font Self="difb10FontnAvenir Next Demi Bold Italic" FontFamily="Avenir Next" Name="Avenir Next Demi Bold Italic" PostScriptName="AvenirNext-DemiBoldItalic" Status="Installed" FontStyleName="Demi Bold Italic" FontType="TrueType" WritingScript="0" FullName="Avenir Next Demi Bold Italic" FullNameNative="Avenir Next Demi Bold Italic" FontStyleNameNative="Demi Bold Italic" PlatformName="$ID/" Version="12.0d1e9" TypekitID="$ID/" />
+		<Font Self="difb10FontnAvenir Next Bold" FontFamily="Avenir Next" Name="Avenir Next Bold" PostScriptName="AvenirNext-Bold" Status="Installed" FontStyleName="Bold" FontType="TrueType" WritingScript="0" FullName="Avenir Next Bold" FullNameNative="Avenir Next Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="12.0d1e9" TypekitID="$ID/" />
+		<Font Self="difb10FontnAvenir Next Bold Italic" FontFamily="Avenir Next" Name="Avenir Next Bold Italic" PostScriptName="AvenirNext-BoldItalic" Status="Installed" FontStyleName="Bold Italic" FontType="TrueType" WritingScript="0" FullName="Avenir Next Bold Italic" FullNameNative="Avenir Next Bold Italic" FontStyleNameNative="Bold Italic" PlatformName="$ID/" Version="12.0d1e9" TypekitID="$ID/" />
+		<Font Self="difb10FontnAvenir Next Heavy" FontFamily="Avenir Next" Name="Avenir Next Heavy" PostScriptName="AvenirNext-Heavy" Status="Installed" FontStyleName="Heavy" FontType="TrueType" WritingScript="0" FullName="Avenir Next Heavy" FullNameNative="Avenir Next Heavy" FontStyleNameNative="Heavy" PlatformName="$ID/" Version="12.0d1e9" TypekitID="$ID/" />
+		<Font Self="difb10FontnAvenir Next Heavy Italic" FontFamily="Avenir Next" Name="Avenir Next Heavy Italic" PostScriptName="AvenirNext-HeavyItalic" Status="Installed" FontStyleName="Heavy Italic" FontType="TrueType" WritingScript="0" FullName="Avenir Next Heavy Italic" FullNameNative="Avenir Next Heavy Italic" FontStyleNameNative="Heavy Italic" PlatformName="$ID/" Version="12.0d1e9" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="di102ee" Name="Avenir">
+		<Font Self="di102eeFontnAvenir Light" FontFamily="Avenir" Name="Avenir Light" PostScriptName="Avenir-Light" Status="Installed" FontStyleName="Light" FontType="TrueType" WritingScript="0" FullName="Avenir Light" FullNameNative="Avenir Light" FontStyleNameNative="Light" PlatformName="$ID/" Version="8.0d5e4" TypekitID="$ID/" />
+		<Font Self="di102eeFontnAvenir Light Oblique" FontFamily="Avenir" Name="Avenir Light Oblique" PostScriptName="Avenir-LightOblique" Status="Installed" FontStyleName="Light Oblique" FontType="TrueType" WritingScript="0" FullName="Avenir Light Oblique" FullNameNative="Avenir Light Oblique" FontStyleNameNative="Light Oblique" PlatformName="$ID/" Version="8.0d5e4" TypekitID="$ID/" />
+		<Font Self="di102eeFontnAvenir Book" FontFamily="Avenir" Name="Avenir Book" PostScriptName="Avenir-Book" Status="Installed" FontStyleName="Book" FontType="TrueType" WritingScript="0" FullName="Avenir Book" FullNameNative="Avenir Book" FontStyleNameNative="Book" PlatformName="$ID/" Version="8.0d5e4" TypekitID="$ID/" />
+		<Font Self="di102eeFontnAvenir Roman " FontFamily="Avenir" Name="Avenir Roman " PostScriptName="Avenir-Roman" Status="Installed" FontStyleName="Roman " FontType="TrueType" WritingScript="0" FullName="Avenir Roman" FullNameNative="Avenir Roman" FontStyleNameNative="Roman " PlatformName="$ID/" Version="8.0d5e4" TypekitID="$ID/" />
+		<Font Self="di102eeFontnAvenir Book Oblique" FontFamily="Avenir" Name="Avenir Book Oblique" PostScriptName="Avenir-BookOblique" Status="Installed" FontStyleName="Book Oblique" FontType="TrueType" WritingScript="0" FullName="Avenir Book Oblique" FullNameNative="Avenir Book Oblique" FontStyleNameNative="Book Oblique" PlatformName="$ID/" Version="8.0d5e4" TypekitID="$ID/" />
+		<Font Self="di102eeFontnAvenir Oblique" FontFamily="Avenir" Name="Avenir Oblique" PostScriptName="Avenir-Oblique" Status="Installed" FontStyleName="Oblique" FontType="TrueType" WritingScript="0" FullName="Avenir Oblique" FullNameNative="Avenir Oblique" FontStyleNameNative="Oblique" PlatformName="$ID/" Version="8.0d5e4" TypekitID="$ID/" />
+		<Font Self="di102eeFontnAvenir Medium" FontFamily="Avenir" Name="Avenir Medium" PostScriptName="Avenir-Medium" Status="Installed" FontStyleName="Medium" FontType="TrueType" WritingScript="0" FullName="Avenir Medium" FullNameNative="Avenir Medium" FontStyleNameNative="Medium" PlatformName="$ID/" Version="8.0d5e4" TypekitID="$ID/" />
+		<Font Self="di102eeFontnAvenir Medium Oblique" FontFamily="Avenir" Name="Avenir Medium Oblique" PostScriptName="Avenir-MediumOblique" Status="Installed" FontStyleName="Medium Oblique" FontType="TrueType" WritingScript="0" FullName="Avenir Medium Oblique" FullNameNative="Avenir Medium Oblique" FontStyleNameNative="Medium Oblique" PlatformName="$ID/" Version="8.0d5e4" TypekitID="$ID/" />
+		<Font Self="di102eeFontnAvenir Black" FontFamily="Avenir" Name="Avenir Black" PostScriptName="Avenir-Black" Status="Installed" FontStyleName="Black" FontType="TrueType" WritingScript="0" FullName="Avenir Black" FullNameNative="Avenir Black" FontStyleNameNative="Black" PlatformName="$ID/" Version="8.0d5e4" TypekitID="$ID/" />
+		<Font Self="di102eeFontnAvenir Black Oblique" FontFamily="Avenir" Name="Avenir Black Oblique" PostScriptName="Avenir-BlackOblique" Status="Installed" FontStyleName="Black Oblique" FontType="TrueType" WritingScript="0" FullName="Avenir Black Oblique" FullNameNative="Avenir Black Oblique" FontStyleNameNative="Black Oblique" PlatformName="$ID/" Version="8.0d5e4" TypekitID="$ID/" />
+		<Font Self="di102eeFontnAvenir Heavy" FontFamily="Avenir" Name="Avenir Heavy" PostScriptName="Avenir-Heavy" Status="Installed" FontStyleName="Heavy" FontType="TrueType" WritingScript="0" FullName="Avenir Heavy" FullNameNative="Avenir Heavy" FontStyleNameNative="Heavy" PlatformName="$ID/" Version="8.0d5e4" TypekitID="$ID/" />
+		<Font Self="di102eeFontnAvenir Heavy Oblique" FontFamily="Avenir" Name="Avenir Heavy Oblique" PostScriptName="Avenir-HeavyOblique" Status="Installed" FontStyleName="Heavy Oblique" FontType="TrueType" WritingScript="0" FullName="Avenir Heavy Oblique" FullNameNative="Avenir Heavy Oblique" FontStyleNameNative="Heavy Oblique" PlatformName="$ID/" Version="8.0d5e4" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="di10606" Name="American Typewriter">
+		<Font Self="di10606FontnAmerican Typewriter Condensed Light" FontFamily="American Typewriter" Name="American Typewriter Condensed Light" PostScriptName="AmericanTypewriter-CondensedLight" Status="Installed" FontStyleName="Condensed Light" FontType="TrueType" WritingScript="0" FullName="American Typewriter Condensed Light" FullNameNative="American Typewriter Condensed Light" FontStyleNameNative="Condensed Light" PlatformName="$ID/" Version="12.0d5e2" TypekitID="$ID/" />
+		<Font Self="di10606FontnAmerican Typewriter Condensed" FontFamily="American Typewriter" Name="American Typewriter Condensed" PostScriptName="AmericanTypewriter-Condensed" Status="Installed" FontStyleName="Condensed" FontType="TrueType" WritingScript="0" FullName="American Typewriter Condensed" FullNameNative="American Typewriter Condensed" FontStyleNameNative="Condensed" PlatformName="$ID/" Version="12.0d5e2" TypekitID="$ID/" />
+		<Font Self="di10606FontnAmerican Typewriter Condensed Bold" FontFamily="American Typewriter" Name="American Typewriter Condensed Bold" PostScriptName="AmericanTypewriter-CondensedBold" Status="Installed" FontStyleName="Condensed Bold" FontType="TrueType" WritingScript="0" FullName="American Typewriter Condensed Bold" FullNameNative="American Typewriter Condensed Bold" FontStyleNameNative="Condensed Bold" PlatformName="$ID/" Version="12.0d5e2" TypekitID="$ID/" />
+		<Font Self="di10606FontnAmerican Typewriter Light" FontFamily="American Typewriter" Name="American Typewriter Light" PostScriptName="AmericanTypewriter-Light" Status="Installed" FontStyleName="Light" FontType="TrueType" WritingScript="0" FullName="American Typewriter Light" FullNameNative="American Typewriter Light" FontStyleNameNative="Light" PlatformName="$ID/" Version="12.0d5e2" TypekitID="$ID/" />
+		<Font Self="di10606FontnAmerican Typewriter Regular" FontFamily="American Typewriter" Name="American Typewriter Regular" PostScriptName="AmericanTypewriter" Status="Installed" FontStyleName="Regular" FontType="TrueType" WritingScript="0" FullName="American Typewriter" FullNameNative="American Typewriter" FontStyleNameNative="Regular" PlatformName="$ID/" Version="12.0d5e2" TypekitID="$ID/" />
+		<Font Self="di10606FontnAmerican Typewriter Semibold" FontFamily="American Typewriter" Name="American Typewriter Semibold" PostScriptName="AmericanTypewriter-Semibold" Status="Installed" FontStyleName="Semibold" FontType="TrueType" WritingScript="0" FullName="American Typewriter Semibold" FullNameNative="American Typewriter Semibold" FontStyleNameNative="Semibold" PlatformName="$ID/" Version="12.0d5e2" TypekitID="$ID/" />
+		<Font Self="di10606FontnAmerican Typewriter Bold" FontFamily="American Typewriter" Name="American Typewriter Bold" PostScriptName="AmericanTypewriter-Bold" Status="Installed" FontStyleName="Bold" FontType="TrueType" WritingScript="0" FullName="American Typewriter Bold" FullNameNative="American Typewriter Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="12.0d5e2" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="di10d72" Name="Bebas Neue (TT)">
+		<Font Self="di10d72FontnBebas Neue (TT) Regular" FontFamily="Bebas Neue (TT)" Name="Bebas Neue (TT) Regular" PostScriptName="BebasNeue" Status="Installed" FontStyleName="Regular" FontType="TrueType" WritingScript="0" FullName="Bebas Neue" FullNameNative="Bebas Neue" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 1.002" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="di11dbd" Name="Baloo">
+		<Font Self="di11dbdFontnBaloo Regular" FontFamily="Baloo" Name="Baloo Regular" PostScriptName="Baloo-Regular" Status="Installed" FontStyleName="Regular" FontType="TrueType" WritingScript="0" FullName="Baloo" FullNameNative="Baloo" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 1.100;PS 1.000;hotconv 1.0.88;makeotf.lib2.5.647800; ttfautohint (v1.5)" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="di125b7" Name="Chalkduster">
+		<Font Self="di125b7FontnChalkduster Regular" FontFamily="Chalkduster" Name="Chalkduster Regular" PostScriptName="Chalkduster" Status="Installed" FontStyleName="Regular" FontType="TrueType" WritingScript="0" FullName="Chalkduster" FullNameNative="Chalkduster" FontStyleNameNative="Regular" PlatformName="$ID/" Version="7.0d6e1" TypekitID="$ID/" />
+	</FontFamily>
+	<CompositeFont Self="CompositeFont/$ID/[No composite font]" Name="$ID/[No composite font]">
+		<CompositeFontEntry Self="ua1" Name="$ID/Kanji" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Kozuka Mincho Pro</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="ua3" Name="$ID/Kana" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖゝゞァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶヷヸヹヺーヽヾ" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Kozuka Mincho Pro</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="ua4" Name="$ID/Punctuation" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="—―‖‘’“”‥…′″∥、。〈〉《》「」『』【】〔〕〜・！（），．／：；？［］｛｝～" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Kozuka Mincho Pro</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="ua5" Name="$ID/Symbols" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="¢£§¨¬°±´¶×÷ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψωЁАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяё‐†‡‰※℃Å←↑→↓⇒⇔∀∂∃∇∈∋−√∝∞∠∧∨∩∪∫∬∴∵∽≒≠≡≦≧≪≫⊂⊃⊆⊇⊥⌒■□▲△▼▽◆◇○◎●◯★☆♀♂♪♭♯〃〆〇〒〓゛゜＃＄％＆＊＋－０１２３４５６７８９＜＝＞＠ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ＼＾＿｀ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ｜￠￡￢￣￥" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Kozuka Mincho Pro</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="ua6" Name="$ID/Alphabetic" FontStyle="$ID/Regular" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters=" !&quot;#$%&amp;&apos;()*+,-./:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¤¥¦©ª«­®¯²³µ·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿıŒœŠšŸŽžƒˆˇ˘˙˚˛˜˝–‚„•‹›⁄€™∆∏∑≈≤≥◊ﬀﬁﬂﬃﬄﬅﬆ" Locked="true" ScaleOption="false" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Minion Pro</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="ua7" Name="$ID/Numbers" FontStyle="$ID/Regular" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="0123456789" Locked="true" ScaleOption="false" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Minion Pro</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+	</CompositeFont>
+	<RootCharacterStyleGroup Self="u77">
+		<CharacterStyle Self="CharacterStyle/$ID/[No character style]" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="$ID/" Name="$ID/[No character style]" />
+		<CharacterStyle Self="CharacterStyle/Capitular" Imported="false" SplitDocument="false" EmitCss="true" StyleUniqueId="b7507508-bf3f-416c-91ca-e683b3a32b96" KeyboardShortcut="0 0" Name="Capitular" FillColor="Color/azulclaroUFCG" FontStyle="Bold" PointSize="11" KerningMethod="$ID/Metrics" Tracking="25" Capitalization="AllCaps" KerningValue="1e+11" Position="Normal">
+			<Properties>
+				<BasedOn type="string">$ID/[No character style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<AppliedFont type="string">Baskerville</AppliedFont>
+			</Properties>
+		</CharacterStyle>
+	</RootCharacterStyleGroup>
+	<RootParagraphStyleGroup Self="u76">
+		<ParagraphStyle Self="ParagraphStyle/paragrafoNormal" Name="paragrafoNormal" Imported="false" NextStyle="ParagraphStyle/paragrafoNormal" SplitDocument="false" EmitCss="true" StyleUniqueId="036a0700-3cea-4899-b73e-c75455cb243a" EmptyNestedStyles="false" EmptyLineStyles="true" EmptyGrepStyles="true" KeyboardShortcut="0 0" PointSize="11" DropCapCharacters="1" DropCapLines="2" LeftIndent="5.669291338582678" RightIndent="5.669291338582678" FirstLineIndent="2.834645669291339" AppliedLanguage="$ID/Portuguese: Brazilian" SpaceBefore="3" Justification="LeftJustified">
+			<Properties>
+				<BasedOn type="string">$ID/[No paragraph style]</BasedOn>
+				<PreviewColor type="enumeration">Nothing</PreviewColor>
+				<AppliedFont type="string">Baskerville</AppliedFont>
+				<AllNestedStyles type="list">
+					<ListItem type="record">
+						<AppliedCharacterStyle type="object">CharacterStyle/Capitular</AppliedCharacterStyle>
+						<Delimiter type="enumeration">Dropcap</Delimiter>
+						<Repetition type="long">1</Repetition>
+						<Inclusive type="boolean">true</Inclusive>
+					</ListItem>
+				</AllNestedStyles>
+				<ParagraphShadingColor type="object">Color/Black</ParagraphShadingColor>
+				<BulletChar BulletCharacterType="UnicodeOnly" BulletCharacterValue="42" />
+			</Properties>
+		</ParagraphStyle>
+	</RootParagraphStyleGroup>
+	<TinDocumentDataObject>
+		<Properties>
+			<GaijiRefMaps><![CDATA[/////wAAAAAAAAAA]]></GaijiRefMaps>
+		</Properties>
+	</TinDocumentDataObject>
+	<CrossReferenceFormat Self="u96" Name="Full Paragraph &amp; Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u96BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u96BuildingBlock1" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u96BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; on page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u96BuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u97" Name="Full Paragraph" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u97BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u97BuildingBlock1" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u97BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u98" Name="Paragraph Text &amp; Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u98BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u98BuildingBlock1" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u98BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; on page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u98BuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u99" Name="Paragraph Text" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u99BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u99BuildingBlock1" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u99BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u9a" Name="Paragraph Number &amp; Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u9aBuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9aBuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" on page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9aBuildingBlock2" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u9b" Name="Paragraph Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u9bBuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u9c" Name="Text Anchor Name &amp; Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u9cBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9cBuildingBlock1" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9cBuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; on page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9cBuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u9d" Name="Text Anchor Name" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u9dBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9dBuildingBlock1" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9dBuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="u9e" Name="Page Number" AppliedCharacterStyle="n">
+		<BuildingBlock Self="u9eBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="page " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="u9eBuildingBlock1" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uf59e" Name="Parágrafo completo e número de página" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uf59eBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf59eBuildingBlock1" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf59eBuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; na página " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf59eBuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uf59f" Name="Parágrafo completo" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uf59fBuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf59fBuildingBlock1" BlockType="FullParagraphBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf59fBuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uf5a0" Name="Texto do parágrafo e número de página" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uf5a0BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf5a0BuildingBlock1" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf5a0BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; na página " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf5a0BuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uf5a1" Name="Texto do parágrafo" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uf5a1BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf5a1BuildingBlock1" BlockType="ParagraphTextBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf5a1BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uf5a2" Name="Número de parágrafo e número de página" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uf5a2BuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf5a2BuildingBlock1" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText=" na página " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf5a2BuildingBlock2" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uf5a3" Name="Número de parágrafo" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uf5a3BuildingBlock0" BlockType="ParagraphNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uf5a4" Name="Nome de âncora de texto e número de página" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uf5a4BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf5a4BuildingBlock1" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf5a4BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot; na página " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf5a4BuildingBlock3" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uf5a5" Name="Nome de âncora de texto" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uf5a5BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf5a5BuildingBlock1" BlockType="BookmarkNameBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf5a5BuildingBlock2" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="&quot;" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<CrossReferenceFormat Self="uf5a6" Name="Número de página" AppliedCharacterStyle="n">
+		<BuildingBlock Self="uf5a6BuildingBlock0" BlockType="CustomStringBuildingBlock" AppliedCharacterStyle="n" CustomText="página " AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+		<BuildingBlock Self="uf5a6BuildingBlock1" BlockType="PageNumberBuildingBlock" AppliedCharacterStyle="n" CustomText="$ID/" AppliedDelimiter="$ID/" IncludeDelimiter="false" />
+	</CrossReferenceFormat>
+	<Story Self="u1220d" AppliedTOCStyle="n" UserText="true" TrackChanges="false" StoryTitle="brochuraBINGO-Texto-1" AppliedNamedGrid="n">
+		<StoryPreference OpticalMarginAlignment="false" OpticalMarginSize="12" FrameType="TextFrameType" StoryOrientation="Horizontal" StoryDirection="LeftToRightDirection" />
+		<MetadataPacketPreference>
+			<Properties>
+				<Contents><![CDATA[<?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <rdf:Description rdf:about=""
+            xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+            xmlns:xmpGImg="http://ns.adobe.com/xap/1.0/g/img/"
+            xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+            xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+            xmlns:dc="http://purl.org/dc/elements/1.1/"
+            xmlns:xmpTPg="http://ns.adobe.com/xap/1.0/t/pg/"
+            xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/"
+            xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#">
+         <xmp:CreateDate>2017-07-06T10:17:36-03:00</xmp:CreateDate>
+         <xmp:MetadataDate>2017-07-06T10:17:36-03:00</xmp:MetadataDate>
+         <xmp:ModifyDate>2017-07-06T10:17:36-03:00</xmp:ModifyDate>
+         <xmp:CreatorTool>Adobe InDesign CC 2017 (Macintosh)</xmp:CreatorTool>
+         <xmp:Thumbnails>
+            <rdf:Alt>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpGImg:format>JPEG</xmpGImg:format>
+                  <xmpGImg:width>256</xmpGImg:width>
+                  <xmpGImg:height>256</xmpGImg:height>
+                  <xmpGImg:image>/9j/4AAQSkZJRgABAgEASABIAAD/7QAsUGhvdG9zaG9wIDMuMAA4QklNA+0AAAAAABAASAAAAAEA&#xA;AQBIAAAAAQAB/+4AE0Fkb2JlAGQAAAAAAQUAAklE/9sAhAAKBwcHBwcKBwcKDgkJCQ4RDAsLDBEU&#xA;EBAQEBAUEQ8RERERDxERFxoaGhcRHyEhISEfKy0tLSsyMjIyMjIyMjIyAQsJCQ4MDh8XFx8rIx0j&#xA;KzIrKysrMjIyMjIyMjIyMjIyMjIyMjI+Pj4+PjJAQEBAQEBAQEBAQEBAQEBAQEBAQED/wAARCADR&#xA;ALsDAREAAhEBAxEB/8QBogAAAAcBAQEBAQAAAAAAAAAABAUDAgYBAAcICQoLAQACAgMBAQEBAQAA&#xA;AAAAAAABAAIDBAUGBwgJCgsQAAIBAwMCBAIGBwMEAgYCcwECAxEEAAUhEjFBUQYTYSJxgRQykaEH&#xA;FbFCI8FS0eEzFmLwJHKC8SVDNFOSorJjc8I1RCeTo7M2F1RkdMPS4ggmgwkKGBmElEVGpLRW01Uo&#xA;GvLj88TU5PRldYWVpbXF1eX1ZnaGlqa2xtbm9jdHV2d3h5ent8fX5/c4SFhoeIiYqLjI2Oj4KTlJ&#xA;WWl5iZmpucnZ6fkqOkpaanqKmqq6ytrq+hEAAgIBAgMFBQQFBgQIAwNtAQACEQMEIRIxQQVRE2Ei&#xA;BnGBkTKhsfAUwdHhI0IVUmJy8TMkNEOCFpJTJaJjssIHc9I14kSDF1STCAkKGBkmNkUaJ2R0VTfy&#xA;o7PDKCnT4/OElKS0xNTk9GV1hZWltcXV5fVGVmZ2hpamtsbW5vZHV2d3h5ent8fX5/c4SFhoeIiY&#xA;qLjI2Oj4OUlZaXmJmam5ydnp+So6SlpqeoqaqrrK2ur6/9oADAMBAAIRAxEAPwDs2KuxV2KuxV2K&#xA;uxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Ku&#xA;xV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Kux&#xA;V2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV&#xA;2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2&#xA;KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2K&#xA;uxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Ku&#xA;xV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Kux&#xA;V2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV&#xA;2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2&#xA;KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2K&#xA;uxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Ku&#xA;xV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Kux&#xA;V2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV&#xA;2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2&#xA;KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2K&#xA;uxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Ku&#xA;xV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Kux&#xA;V2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV&#xA;2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2&#xA;KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2K&#xA;uxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2KuxV2Ku&#xA;xV2KuxV2KuxV/9k=</xmpGImg:image>
+               </rdf:li>
+            </rdf:Alt>
+         </xmp:Thumbnails>
+         <xmpMM:InstanceID>xmp.iid:60d473d5-a47f-48c3-8263-3f6eda3e84e6</xmpMM:InstanceID>
+         <xmpMM:DocumentID>xmp.did:a68c6aec-4b0b-4f51-85dd-42f33f49f090</xmpMM:DocumentID>
+         <xmpMM:OriginalDocumentID>xmp.did:a68c6aec-4b0b-4f51-85dd-42f33f49f090</xmpMM:OriginalDocumentID>
+         <xmpMM:History>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>created</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:a68c6aec-4b0b-4f51-85dd-42f33f49f090</stEvt:instanceID>
+                  <stEvt:when>2017-07-06T10:17:36-03:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2017 (Macintosh)</stEvt:softwareAgent>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <stEvt:action>saved</stEvt:action>
+                  <stEvt:instanceID>xmp.iid:60d473d5-a47f-48c3-8263-3f6eda3e84e6</stEvt:instanceID>
+                  <stEvt:when>2017-07-06T10:17:36-03:00</stEvt:when>
+                  <stEvt:softwareAgent>Adobe InDesign CC 2017 (Macintosh)</stEvt:softwareAgent>
+                  <stEvt:changed>/</stEvt:changed>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpMM:History>
+         <dc:format>application/x-indesign</dc:format>
+         <dc:title>
+            <rdf:Alt>
+               <rdf:li xml:lang="x-default">brochuraBINGO-Texto-1</rdf:li>
+            </rdf:Alt>
+         </dc:title>
+         <xmpTPg:Colorants>
+            <rdf:Seq>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:swatchName>Preto</xmpG:swatchName>
+                  <xmpG:mode>CMYK</xmpG:mode>
+                  <xmpG:type>Process</xmpG:type>
+                  <xmpG:cyan>0</xmpG:cyan>
+                  <xmpG:magenta>0</xmpG:magenta>
+                  <xmpG:yellow>0</xmpG:yellow>
+                  <xmpG:black>100</xmpG:black>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:swatchName>Papel</xmpG:swatchName>
+                  <xmpG:mode>CMYK</xmpG:mode>
+                  <xmpG:type>Process</xmpG:type>
+                  <xmpG:cyan>0</xmpG:cyan>
+                  <xmpG:magenta>0</xmpG:magenta>
+                  <xmpG:yellow>0</xmpG:yellow>
+                  <xmpG:black>0</xmpG:black>
+               </rdf:li>
+               <rdf:li rdf:parseType="Resource">
+                  <xmpG:swatchName>Registro</xmpG:swatchName>
+                  <xmpG:mode>CMYK</xmpG:mode>
+                  <xmpG:type>Process</xmpG:type>
+                  <xmpG:cyan>100</xmpG:cyan>
+                  <xmpG:magenta>100</xmpG:magenta>
+                  <xmpG:yellow>100</xmpG:yellow>
+                  <xmpG:black>100</xmpG:black>
+               </rdf:li>
+            </rdf:Seq>
+         </xmpTPg:Colorants>
+         <xmpTPg:Fonts>
+            <rdf:Bag>
+               <rdf:li rdf:parseType="Resource">
+                  <stFnt:fontName>Baskerville-Bold</stFnt:fontName>
+                  <stFnt:fontFamily>Baskerville</stFnt:fontFamily>
+                  <stFnt:fontFace>Bold</stFnt:fontFace>
+                  <stFnt:fontType>TrueType</stFnt:fontType>
+                  <stFnt:versionString>Baskerville-Bold12.0d2e3</stFnt:versionString>
+                  <stFnt:composite>false</stFnt:composite>
+                  <stFnt:fontFileName>Baskerville.ttc</stFnt:fontFileName>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpTPg:Fonts>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
+<?xpacket end="r"?>]]></Contents>
+			</Properties>
+		</MetadataPacketPreference>
+		<InCopyExportOption IncludeGraphicProxies="true" IncludeAllResources="false" />
+		<ParagraphStyleRange AppliedParagraphStyle="ParagraphStyle/paragrafoNormal">
+			<CharacterStyleRange AppliedCharacterStyle="CharacterStyle/$ID/[No character style]" />
+		</ParagraphStyleRange>
+	</Story>
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.youtube.com/watch?v=VyTtokXN-vw" DestinationUniqueKey="6" Name="https://www.youtube.com/watch?v=VyTtokXN-vw" DestinationURL="https://www.youtube.com/watch?v=VyTtokXN-vw" Hidden="false" />
+	<HyperlinkURLDestination Self="HyperlinkURLDestination/https%3a//www.bportugal.pt/pt-PT/BdP Publicaes de Investigao/ab201213_p.pdf" DestinationUniqueKey="7" Name="https://www.bportugal.pt/pt-PT/BdP Publicaes de Investigao/ab201213_p.pdf" DestinationURL="https://www.bportugal.pt/pt-PT/BdP Publicaes de Investigao/ab201213_p.pdf" Hidden="false" />
+	<ColorGroup Self="ColorGroup/[Root Color Group]" Name="[Root Color Group]" IsRootColorGroup="true">
+		<ColorGroupSwatch Self="u1e8fColorGroupSwatch3" SwatchItemRef="Color/Black" />
+	</ColorGroup>
+	<ColorGroup Self="ColorGroup/folderUFCG" Name="folderUFCG" IsRootColorGroup="false">
+		<ColorGroupSwatch Self="u10940ColorGroupSwatch5" SwatchItemRef="Color/azulclaroUFCG" />
+	</ColorGroup>
+</Document>

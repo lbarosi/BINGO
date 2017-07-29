@@ -53,6 +53,7 @@ silencio <- silencio %>% as.data.frame() %>%
 
 silencio %<>% filter(., AEREO > 10000)
 
+silencioCariri <- filter(silencio, Mun %in% c("SUMÉ","CAMALAÚ","SERRA BRANCA"))
 #Visualização Geral de sites 
 mapageral <- leaflet() %>% addTiles(group = "OSM (default)") %>% 
   setView(lng = -37.55, lat = -6.97, zoom = 9) %>%
