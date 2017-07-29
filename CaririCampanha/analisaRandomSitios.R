@@ -15,7 +15,7 @@ pal <- colorNumeric(c("#0C2C84", "#41B6C4", "#FFFFCC"), values(Paraiba),
 P4S.latlon <- CRS("+proj=longlat +datum=WGS84")
 hrr.shp <- readShapePoly("./GEODATA/municipiosPB/i3geomap_municipios_pb", verbose=FALSE, proj4string=P4S.latlon) 
 #Carrega todos os arquivos em ./RandomSites
-files       <- list.files("./RandomSites") 
+files       <- list.files("./RandomSites/", pattern = "*.csv") 
 sitios      <- lapply(files, function(i) {
                         name <- paste("./RandomSites/",i,sep="");
                         read.csv(name)

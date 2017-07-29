@@ -121,6 +121,7 @@ RSJTapada        <- randomSitios(n,-38.25941-delta,-38.25941+delta,
                                  -7.04674-delta,-7.04674+delta,seed,
                                  "./RandomSites/Catarina.csv")
 
+
 #########################
 
 
@@ -149,3 +150,38 @@ dadosSitios <- function(pontosdf, nome){
 
 visitados <- read.csv("./campanha2.csv")
 dadosSitios(visitados, "./RandomSites/Visitados-campanha2.csv")
+
+#################################
+#Campanha 3
+sitios <- read.csv("./sitesvisited.csv")
+
+#############
+seed  <- 1
+#n     <- 200
+n     <- 100
+#delta <- 0.25 #Raio de 120km
+delta <- 0.03
+
+Gato         <- randomSitios(n,sitios$lon[9]-delta,sitios$lon[9]+delta,
+                             sitios$lat[9]-delta,sitios$lat[9]+delta,seed,
+                                 "./RandomSites/Gato.csv")
+
+
+Urubu         <- randomSitios(n,sitios$lon[10]-delta,sitios$lon[10]+delta,
+                             sitios$lat[10]-delta,sitios$lat[10]+delta,seed,
+                             "./RandomSites/Urubu.csv")
+
+
+Almas        <- randomSitios(n,sitios$lon[7]-delta,sitios$lon[7]+delta,
+                             sitios$lat[7]-delta,sitios$lat[7]+delta,seed,
+                             "./RandomSites/Almas.csv")
+
+
+Palestina         <- randomSitios(n,sitios$lon[11]-delta,sitios$lon[11]+delta,
+                             sitios$lat[11]-delta,sitios$lat[11]+delta,seed,
+                             "./RandomSites/Palestina.csv")
+
+dadosSitios(Gato, "./RandomSites/Gato.csv")
+dadosSitios(Urubu, "./RandomSites/Urubu.csv")
+dadosSitios(Almas, "./RandomSites/Almas.csv")
+dadosSitios(Palestina, "./RandomSites/Palestina.csv")
